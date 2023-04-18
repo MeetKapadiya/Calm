@@ -15,7 +15,7 @@ class MusicCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        print("hii")
+        print("hiijfghjknf")
     }
 
 }
