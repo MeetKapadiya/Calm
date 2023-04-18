@@ -11,6 +11,6 @@ class MainViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello Rahulgvhb")
+        print("Hello ")
     }
 }
