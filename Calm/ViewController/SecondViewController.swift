@@ -15,8 +15,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
     }
-    
-    
+
     @IBAction func apiButtonTapped(_ sender: Any) {
         
         let storyBord: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
@@ -25,4 +24,5 @@ class SecondViewController: UIViewController {
         navigationController?.pushViewController(apiCallViewController, animated: true)
         
     }
+    
 }
