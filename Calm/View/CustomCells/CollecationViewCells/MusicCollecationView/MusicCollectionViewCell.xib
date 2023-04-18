@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="MusicCollectionViewCell" reuseIdentifier="MusicCell" id="gTV-IL-0wX" customClass="MusicCollectionViewCell" customModule="Calm" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="217" height="285"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="217" height="285"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OBp-tL-ui9">
+                        <rect key="frame" x="0.0" y="0.0" width="217" height="160"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="217" id="dLh-jZ-pDp"/>
+                            <constraint firstAttribute="height" constant="160" id="iNr-ox-tUh"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jb0-NJ-R6H">
+                        <rect key="frame" x="12" y="185" width="193" height="20.333333333333343"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="193" id="LP4-xo-q5G"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="En8-e3-Rn3">
+                        <rect key="frame" x="12" y="230.33333333333334" width="193" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="l9O-12-VaQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="OBp-tL-ui9" secondAttribute="trailing" id="ChA-0c-DKv"/>
+                <constraint firstAttribute="trailing" secondItem="jb0-NJ-R6H" secondAttribute="trailing" constant="12" id="JeR-Rs-V4V"/>
+                <constraint firstItem="En8-e3-Rn3" firstAttribute="top" secondItem="jb0-NJ-R6H" secondAttribute="bottom" constant="25" id="QV3-TE-PEh"/>
+                <constraint firstItem="jb0-NJ-R6H" firstAttribute="top" secondItem="OBp-tL-ui9" secondAttribute="bottom" constant="25" id="gIq-rS-rVg"/>
+                <constraint firstItem="OBp-tL-ui9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="iws-uJ-hAI"/>
+                <constraint firstItem="jb0-NJ-R6H" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="mZQ-Og-m79"/>
+                <constraint firstItem="OBp-tL-ui9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ma2-Ji-jGm"/>
+                <constraint firstItem="En8-e3-Rn3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="mdT-UF-UhZ"/>
+                <constraint firstAttribute="trailing" secondItem="En8-e3-Rn3" secondAttribute="trailing" constant="12" id="rKr-8D-ldQ"/>
+            </constraints>
+            <size key="customSize" width="217" height="285"/>
+            <connections>
+                <outlet property="musicDetail" destination="En8-e3-Rn3" id="4Fe-Mn-tcv"/>
+                <outlet property="musicImage" destination="OBp-tL-ui9" id="eYm-8z-4HB"/>
+                <outlet property="musicTItle" destination="jb0-NJ-R6H" id="oF1-ya-qw0"/>
+            </connections>
+            <point key="canvasLocation" x="190.07633587786259" y="105.28169014084507"/>
+        </collectionViewCell>
+    </objects>
+</document>
