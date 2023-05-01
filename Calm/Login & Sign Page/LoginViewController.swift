@@ -20,17 +20,9 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var secondView: UIView!
     
-    
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         design()
-        
     }
     
     
@@ -60,10 +52,9 @@ class LoginViewController: UIViewController {
         
         
         let storyBord: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let login: MainViewController = storyBord.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
-        self.navigationController?.pushViewController(login, animated:  true)
-        
-        
+        let mainViewController: MainViewController =
+        storyBord.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+        navigationController?.pushViewController(mainViewController, animated: true)
     }
     
     func displayAlert(message: String){
@@ -73,6 +64,5 @@ class LoginViewController: UIViewController {
         }
         alert.addAction(okButton)
         present(alert, animated: true, completion: nil)
-        
     }
 }

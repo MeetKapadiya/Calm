@@ -34,8 +34,10 @@
 		146D8C8F29CAB6DC00D518CA /* MeditionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146D8C8D29CAB6DC00D518CA /* MeditionCollectionViewCell.swift */; };
 		146D8C9029CAB6DC00D518CA /* MeditionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146D8C8E29CAB6DC00D518CA /* MeditionCollectionViewCell.xib */; };
 		1479AD0A29B5FB9300C21F9D /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479AD0929B5FB9300C21F9D /* MainScreenViewController.swift */; };
+		1489D6EA29F61C1D00D2BEAB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489D6E929F61C1D00D2BEAB /* ProfileViewController.swift */; };
 		149BA5B829C1625C00FCD532 /* QunikEasyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BA5B629C1625C00FCD532 /* QunikEasyCollectionViewCell.swift */; };
 		149BA5B929C1625C00FCD532 /* QunikEasyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149BA5B729C1625C00FCD532 /* QunikEasyCollectionViewCell.xib */; };
+		14AAAB7A29FCFD7100D7B1CC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AAAB7929FCFD7100D7B1CC /* MainViewController.swift */; };
 		14B8D1EA29DB0FFC002266D1 /* All Image & Label Arr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8D1E929DB0FFC002266D1 /* All Image & Label Arr.swift */; };
 		14B8D1ED29DB10A7002266D1 /* HomePageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8D1EC29DB10A7002266D1 /* HomePageApi.swift */; };
 		14B8D1EF29DB10CF002266D1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8D1EE29DB10CF002266D1 /* Place.swift */; };
@@ -46,7 +48,6 @@
 		14D364E129CCBAD400D0E3B0 /* MusicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14D364DF29CCBAD400D0E3B0 /* MusicCollectionViewCell.xib */; };
 		14E24D8529DA7C2700569743 /* RecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E24D8329DA7C2700569743 /* RecommendCollectionViewCell.swift */; };
 		14E24D8629DA7C2700569743 /* RecommendCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E24D8429DA7C2700569743 /* RecommendCollectionViewCell.xib */; };
-		14E24D8F29DA969900569743 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E24D8E29DA969900569743 /* MainViewController.swift */; };
 		14E273CD29C7352200309599 /* MentalFitnessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E273CB29C7352200309599 /* MentalFitnessCollectionViewCell.swift */; };
 		14E273CE29C7352200309599 /* MentalFitnessCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14E273CC29C7352200309599 /* MentalFitnessCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -99,8 +100,10 @@
 		146D8C8D29CAB6DC00D518CA /* MeditionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditionCollectionViewCell.swift; sourceTree = "<group>"; };
 		146D8C8E29CAB6DC00D518CA /* MeditionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeditionCollectionViewCell.xib; sourceTree = "<group>"; };
 		1479AD0929B5FB9300C21F9D /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		1489D6E929F61C1D00D2BEAB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		149BA5B629C1625C00FCD532 /* QunikEasyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QunikEasyCollectionViewCell.swift; sourceTree = "<group>"; };
 		149BA5B729C1625C00FCD532 /* QunikEasyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QunikEasyCollectionViewCell.xib; sourceTree = "<group>"; };
+		14AAAB7929FCFD7100D7B1CC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		14B8D1E929DB0FFC002266D1 /* All Image & Label Arr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "All Image & Label Arr.swift"; sourceTree = "<group>"; };
 		14B8D1EC29DB10A7002266D1 /* HomePageApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageApi.swift; sourceTree = "<group>"; };
 		14B8D1EE29DB10CF002266D1 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -111,7 +114,6 @@
 		14D364DF29CCBAD400D0E3B0 /* MusicCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicCollectionViewCell.xib; sourceTree = "<group>"; };
 		14E24D8329DA7C2700569743 /* RecommendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionViewCell.swift; sourceTree = "<group>"; };
 		14E24D8429DA7C2700569743 /* RecommendCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCollectionViewCell.xib; sourceTree = "<group>"; };
-		14E24D8E29DA969900569743 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		14E273CB29C7352200309599 /* MentalFitnessCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalFitnessCollectionViewCell.swift; sourceTree = "<group>"; };
 		14E273CC29C7352200309599 /* MentalFitnessCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MentalFitnessCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				1479AD0929B5FB9300C21F9D /* MainScreenViewController.swift */,
-				14E24D8E29DA969900569743 /* MainViewController.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -317,6 +318,7 @@
 			children = (
 				14B8D1F329DB1360002266D1 /* SecondViewController.swift */,
 				14B8D1F529DB140C002266D1 /* ApiCallViewController.swift */,
+				1489D6E929F61C1D00D2BEAB /* ProfileViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -390,6 +392,7 @@
 				1431B88B29AB4EA40041EF26 /* CalmActivityOption.swift */,
 				14C77D6429A8EC29002C9485 /* SignPageViewController.swift */,
 				14380D2229B5A45900C3EF63 /* LoginViewController.swift */,
+				14AAAB7929FCFD7100D7B1CC /* MainViewController.swift */,
 			);
 			path = "Login & Sign Page";
 			sourceTree = "<group>";
@@ -556,14 +559,15 @@
 				14B8D1F629DB140C002266D1 /* ApiCallViewController.swift in Sources */,
 				1460277629BAD1C20021CBF9 /* MainCollectionViewCell.swift in Sources */,
 				1415703B29BB49E0009B09CC /* SecondCollectionViewCell.swift in Sources */,
+				1489D6EA29F61C1D00D2BEAB /* ProfileViewController.swift in Sources */,
 				144A2B5429D280A3009A68E7 /* AftrnoonTableViewCell.swift in Sources */,
-				14E24D8F29DA969900569743 /* MainViewController.swift in Sources */,
 				14E273CD29C7352200309599 /* MentalFitnessCollectionViewCell.swift in Sources */,
 				14039FD529A0D76000A41B89 /* AppDelegate.swift in Sources */,
 				14B8D1EF29DB10CF002266D1 /* Place.swift in Sources */,
 				14B8D1F429DB1360002266D1 /* SecondViewController.swift in Sources */,
 				14E24D8529DA7C2700569743 /* RecommendCollectionViewCell.swift in Sources */,
 				1431B88C29AB4EA40041EF26 /* CalmActivityOption.swift in Sources */,
+				14AAAB7A29FCFD7100D7B1CC /* MainViewController.swift in Sources */,
 				145E140B29B61D39006C3CF3 /* CollectionViewCell.swift in Sources */,
 				14380D2329B5A45900C3EF63 /* LoginViewController.swift in Sources */,
 				14039FD729A0D76000A41B89 /* SceneDelegate.swift in Sources */,
@@ -750,7 +754,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65S2994UR9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -778,7 +782,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65S2994UR9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
